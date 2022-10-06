@@ -1,0 +1,31 @@
+<div class="container">
+      <div>
+        Want it delivered by <div class="js-delivered-date"></div> order within
+      </div>
+      <div class="all-clock-container">
+        <div class="clock-container">
+          <p class="clock-hour js-timer-hours">00</p>
+          <p>Hours</p>
+        </div>
+        <div class="clock-container">
+          <p class="clock-hour js-timer-minutes">00</p>
+          <p>Minutes</p>
+        </div>
+        <div class="clock-container">
+          <p class="clock-hour js-timer-seconds">00</p>
+          <p>seconds</p>
+        </div>
+      </div>
+    </div>
+
+{% schema %}
+  {
+    "name": "Delivery Date",
+    "target": "section",
+    "stylesheet": "delivery-date.css",
+    "javascript": "delivery-date.js",
+    "settings": [
+        { "label": "Color", "id": "color", "type": "color", "default": "#000000" }
+    ]
+  }
+{% endschema %}

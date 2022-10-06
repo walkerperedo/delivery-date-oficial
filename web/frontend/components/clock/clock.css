@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: auto;
+  border: 1px solid black;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.clock-container {
+  background-color: #cfd4d9;
+  padding: 8px;
+  border-radius: 10px;
+  margin: 8px;
+}
+
+.clock-hour {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 8px;
+}
